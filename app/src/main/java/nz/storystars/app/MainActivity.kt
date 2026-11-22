@@ -45,7 +45,8 @@ class MainActivity : Activity() {
         prefs = getSharedPreferences("storystars", MODE_PRIVATE)
         engine = StoryEngine(ClaudeClient { KeyVault.load(applicationContext) })
         voice = Voice(this, ::emit)
-        voice.rate = if (config().optBoolean("slow", true)) 0.82f else 1.0f
+        voice.rate = if (config().optBoolean("slow", true)) 0.88f else 1.0f
+        voice.wanted = config().optString("voice")
 
         web = WebView(this)
         web.setBackgroundColor(Color.parseColor("#6EC6FF"))
@@ -181,6 +182,8 @@ class MainActivity : Activity() {
         if (!c.has("mic")) c.put("mic", true)
         if (!c.has("ideas")) c.put("ideas", true)
         if (!c.has("slow")) c.put("slow", true)
+        if (!c.has("voice")) c.put("voice", "")
+        if (!c.has("choices")) c.put("choices", 2)
         return c
     }
 
@@ -227,8 +230,13 @@ class MainActivity : Activity() {
                 .put("mic", incoming.optBoolean("mic", true))
                 .put("ideas", incoming.optBoolean("ideas", true))
                 .put("slow", incoming.optBoolean("slow", true))
+                .put("voice", incoming.optString("voice").take(80))
+                .put("choices", incoming.optInt("choices", 2).coerceIn(2, 3))
             prefs.edit().putString("cfg", c.toString()).apply()
-            main.post { voice.rate = if (c.optBoolean("slow", true)) 0.82f else 1.0f }
+            main.post {
+                voice.rate = if (c.optBoolean("slow", true)) 0.88f else 1.0f
+                voice.useVoice(c.optString("voice"))
+            }
         }
 
         @JavascriptInterface
@@ -236,6 +244,26 @@ class MainActivity : Activity() {
             try {
                 KeyVault.save(applicationContext, key)
             } catch (e: Exception) {
+            }
+        }
+
+        @JavascriptInterface
+        fun getVoices(): String = try {
+            voice.voicesJson()
+        } catch (e: Exception) {
+            "[]"
+        }
+
+        @JavascriptInterface
+        fun tryVoice(name: String, slow: Boolean) {
+            main.post { voice.preview(name, slow) }
+        }
+
+        @JavascriptInterface
+        fun resetVoice() {
+            main.post {
+                voice.hush()
+                voice.useVoice(config().optString("voice"))
             }
         }
 
