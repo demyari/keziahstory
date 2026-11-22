@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story Stars</string>
+    <color name="sky">#6EC6FF</color>
+    <color name="icon_bg">#7C5CFF</color>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/sky</item>
+        <item name="android:statusBarColor">@color/sky</item>
+        <item name="android:navigationBarColor">@color/sky</item>
+    </style>
+</resources>
