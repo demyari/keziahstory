@@ -137,7 +137,7 @@ export function renderStoryPage(page, { state, session, settings, onChoice, onOp
     text.querySelectorAll('.sent.on').forEach((x) => x.classList.remove('on'));
     const p = shown[readFrom + i]?.p;
     const s = p?.querySelectorAll('.sent')[k];
-    if (s) { s.classList.add('on'); s.scrollIntoView?.({ block: 'nearest', behavior: 'smooth' }); }
+    if (s) { s.classList.add('on'); }
   }
   function read(fromIdx = 0) {
     if (!settings.narration) return Promise.resolve();
@@ -167,7 +167,6 @@ export function renderStoryPage(page, { state, session, settings, onChoice, onOp
       onChoice(id);
     }, w);
     if (page.kind === 'ending') renderEndingActions(choices, { onOpenBook, onHome });
-    setTimeout(() => question.scrollIntoView?.({ block: 'nearest', behavior: 'smooth' }), 300);
   }
 
   const ctx = {

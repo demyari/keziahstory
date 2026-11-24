@@ -159,7 +159,7 @@ register('follow_footprints', (api) => {
   for (let i = 0; i < n; i++) {
     const t = n === 1 ? 0.5 : i / (n - 1);
     const x = 30 + t * 48; const y = 76 - t * 30 + (i % 2 ? -4 : 4);
-    const s = div(layer, 'footprint', x, y, 7.5);
+    const s = div(layer, 'footprint', x, y, 10);
     s.style.transform = `translate(-50%,-50%) rotate(${-30 + (i % 2) * 20}deg)`;
     s.setAttribute('role', 'button');
     s.setAttribute('aria-label', `footprint ${i + 1}`);

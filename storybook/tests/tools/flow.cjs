@@ -23,7 +23,7 @@ fs.mkdirSync(outDir, { recursive: true });
     await pg.screenshot({ path: path.join(outDir, `p${i}-a.png`) });
     const hasInter = await pg.evaluate(() => !!document.querySelector('.view:not(.leaving) .illus.interactive'));
     if (hasInter) {
-      await pg.waitForSelector('.view:not(.leaving) .help-btn', { timeout: 12000 }).catch(() => {});
+      await pg.waitForSelector('.view:not(.leaving) .help-btn, .view:not(.leaving) .choice-card', { timeout: 12000 }).catch(() => {});
       await pg.click('.view:not(.leaving) .help-btn').catch(() => {});
       await pg.waitForSelector('.view:not(.leaving) .choice-card', { timeout: 30000 }).catch(() => errors.push(`no choices after help on page ${i}`));
       await pg.waitForTimeout(1200);

@@ -296,7 +296,7 @@
 [data-layout="single"] .choices:not(:empty) {
   position: sticky; bottom: 0; z-index: 6; margin: 0 -18px calc(-22px - var(--safe-b)); padding: 12px 14px calc(14px + var(--safe-b));
   background: linear-gradient(rgba(253, 246, 227, 0), var(--paper) 18px);
-  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(84px, 1fr)); gap: 8px;
 }
 [data-layout="single"] .choice-card { min-height: 96px; }
 [data-layout="single"] .choice-card .thumb { aspect-ratio: 16 / 9; }

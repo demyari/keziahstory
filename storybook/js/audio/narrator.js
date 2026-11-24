@@ -77,9 +77,25 @@ function voiceFor(who) {
   return c ? c.voice : { pitch: 1.05, rate: 1 };
 }
 
-function playClip(who, text) {
+const clipUrls = new Map();
+async function clipUrl(id) {
+  if (clipUrls.has(id)) return clipUrls.get(id);
+  // fetch (rather than a plain src) so clips also load through the Android
+  // app's private asset server and the offline cache
+  const res = await fetch(`assets/audio/clips/${id}.ogg`);
+  if (!res.ok) throw new Error('missing clip');
+  const url = URL.createObjectURL(await res.blob());
+  clipUrls.set(id, url);
+  return url;
+}
+
+async function playClip(who, text) {
+  const gen = generation;
+  let src;
+  try { src = await clipUrl(clipId(who, text)); } catch { return 'failed'; }
+  if (gen !== generation) return 'stopped'; // stopped while loading
   return new Promise((resolve) => {
-    const a = new Audio(`assets/audio/clips/${clipId(who, text)}.ogg`);
+    const a = new Audio(src);
     a.volume = settings.volume;
     a.playbackRate = Math.max(0.8, Math.min(1.2, settings.speed / 0.9));
     let done = false;

@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "StoryStars"
 include(":app")
+include(":storybook-android")
