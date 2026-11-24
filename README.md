@@ -1,3 +1,16 @@
+# Keziah's stories
+
+This repository holds two Android apps for a young child:
+
+- **The Magical Storybook** (`storybook/`, `storybook-android/`): an offline, interactive
+  choose-your-own-adventure picture book with six worlds, recurring friends who remember past
+  stories, letters A–Z, counting to 20 and a Discovery Book. No internet, accounts or API key.
+  Download `MagicalStorybook.apk` from the **"The Magical Storybook (latest build)"**
+  pre-release on the Releases page. See `storybook/README.md`.
+- **Story Stars** (`app/`): the earlier app, where Claude writes stories live (needs an API key). Described below.
+
+---
+
 # Story Stars
 
 A small Android app that makes up picture stories with a young child. Claude writes each page and draws the picture, the phone reads it aloud, and the child picks what happens next by saying it or tapping it.

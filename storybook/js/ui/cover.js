@@ -74,7 +74,8 @@ export function renderWorldPick({ session, settings, onPick, onBack }) {
   const back = el('button', { class: 'round-btn back-btn', type: 'button', 'aria-label': 'Back to the cover' }, icon('back'));
   back.addEventListener('click', () => { sfx.play('tap'); onBack(); });
   left.append(back, el('h2', { class: 'page-title' }, 'Where shall we go today?'),
-    el('p', { class: 'line narr' }, 'Tap a picture to choose a world.'));
+    el('p', { class: 'line narr' }, 'Tap a picture to choose a world.'),
+    el('div', { class: 'world-friends', 'aria-hidden': 'true' }, ...['sparkle', 'rosie', 'pip', 'dotty', 'coral'].map((id, i) => el('img', { src: imgSrc(CHARACTERS[id].img), alt: '', style: `animation-delay:${i * -0.6}s` }))));
   const grid = el('div', { class: 'world-grid' });
   for (const [id, w] of Object.entries(WORLDS)) {
     const visited = session.profile.worlds[id]?.visits;

@@ -275,7 +275,8 @@
 .world-intro .page-title { margin: 64px 0 0; }
 [data-layout="spread"] .world-intro .page-title { margin-top: 70px; }
 .leaf-worlds { padding: 0 16px 24px; }
-[data-layout="spread"] .leaf-worlds { overflow-y: auto; padding: 3vmin 3.6vmin; display: grid; align-content: center; }
+[data-layout="spread"] .leaf-worlds { overflow-y: auto; padding: 3vmin 3.6vmin; display: grid; grid-template-columns: minmax(0, 1fr); align-content: safe center; }
+[data-layout="spread"] .world-grid { grid-template-columns: repeat(auto-fill, minmax(min(30%, 200px), 1fr)); max-width: calc((100dvh - 14vmin) * 1.1); margin: 0 auto; width: 100%; }
 .world-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 @media (min-width: 560px) { [data-layout="single"] .world-grid { grid-template-columns: repeat(3, 1fr); } }
 .world-card { position: relative; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 7px 7px 10px; border-radius: 18px; background: #fffaf0; box-shadow: 0 4px 0 #dcc597, 0 8px 16px rgba(80, 50, 10, .18); animation: cardIn .45s both; }
@@ -312,3 +313,8 @@
   .choice-card { min-height: 80px; padding: 6px; gap: 3px; }
   .choice-card .thumb + .choice-icon { width: 30%; top: 8px; right: 8px; }
 }
+
+.world-friends { display: none; }
+[data-layout="spread"] .world-friends { display: flex; flex-wrap: wrap; justify-content: center; gap: 2vmin; margin-top: auto; padding-bottom: 4vmin; }
+.world-friends img { width: clamp(70px, 13vmin, 140px); filter: drop-shadow(0 8px 8px rgba(0,0,0,.25)); animation: coverFloat2 3.6s ease-in-out infinite; }
+@keyframes coverFloat2 { 50% { transform: translateY(-10px) rotate(-3deg); } }
