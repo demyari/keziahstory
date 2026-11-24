@@ -3,3 +3,6 @@ build/
 local.properties
 .idea/
 *.iml
+node_modules/
+storybook/tests/tmp/
+storybook/.raw-img/

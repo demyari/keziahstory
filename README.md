@@ -1,40 +1,23 @@
-# Story Stars
+# The Magical Storybook
 
-A small Android app that makes up picture stories with a young child. Claude writes each page and draws the picture, the phone reads it aloud, and the child picks what happens next by saying it or tapping it.
+An offline, interactive choose-your-own-adventure picture book for a four-year-old: six worlds,
+recurring friends who remember past stories, letters A–Z, counting to 20, a Discovery Book,
+narration, and no internet, accounts, adverts or tracking.
 
-## Getting the APK
+- `storybook/`: the book itself (an offline web app). Start with `storybook/README.md`.
+- `storybook-android/`: the Android app that bundles the book and adds the phone's own voice.
+- `.github/workflows/storybook.yml`: tests the book, builds `MagicalStorybook.apk` and publishes
+  it as the **"The Magical Storybook (latest build)"** pre-release on the Releases page.
 
-Pushing to `main` on GitHub runs the **Build APK** workflow. When it finishes, open the repo's **Releases** page on the phone, download `StoryStars.apk` and open it to install (Android will ask you to allow installs from your browser).
+## Install on an Android phone
 
-To build on a computer instead: open the folder in Android Studio, or run `./gradlew assembleRelease` with JDK 17 and the Android SDK installed.
+Open the Releases page on the phone, download `MagicalStorybook.apk` from
+"The Magical Storybook (latest build)", and open it to install.
 
-## First run
+## Build locally
 
-1. Create an API key at console.anthropic.com. API use is billed separately from a Claude subscription.
-2. Open the app, paste the key, tap **Test key**, then **Save**.
-3. Allow the microphone when asked.
+`./gradlew :storybook-android:assembleRelease` (JDK 17 and the Android SDK), or run the web
+version with `cd storybook && npm start`.
 
-To get back to the settings later, press and hold the cog on the home screen and answer the sum.
-
-## How it stays child-safe
-
-- The story screen is bundled in the app and cannot load web pages, links or ads. The only internet address the app talks to is `api.anthropic.com`.
-- Claude is given fixed rules for a four-year-old audience: gentle, cosy, nothing scary or unsafe, and no questions about personal details.
-- What the child says is treated only as a story idea. Anything unsuitable is quietly swapped for something nice.
-- Each page is checked on the phone against a word list before it is shown, and asked for again if it fails.
-- Drawings are accepted only if they are made of plain shapes. Anything containing scripts, links, text or outside images is thrown away and a placeholder is shown.
-- Stories have a fixed length and a calm ending, and there is a stories-per-day limit.
-- Settings sit behind a press-and-hold plus a sum.
-- The API key is encrypted with the phone's keystore. Nothing is saved from the microphone; speech is turned into text by the phone's own speech service.
-
-For extra lock-down, use Android's **app pinning** so she cannot leave the app.
-
-## Layout
-
-- `app/src/main/assets/index.html`: the whole story screen (look, flow, voice matching).
-- `StoryEngine.kt`: the rules given to Claude, the API call, and the safety checks.
-- `Voice.kt`: reading aloud and listening.
-- `MainActivity.kt`: the app shell and settings storage.
-- `KeyVault.kt`: encrypted storage for the API key.
-
-The app has no third-party libraries.
+The earlier API-based "Story Stars" app was removed from the tree. It is still in the git
+history (commit 979bb62) if it is ever wanted again.
