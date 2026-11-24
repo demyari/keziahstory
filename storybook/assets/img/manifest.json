@@ -1,0 +1,1422 @@
+{
+ "unicorn": {
+  "title": "Unicorn",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Unicorn/3D/unicorn_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/unicorn.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "owl": {
+  "title": "Owl",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Owl/3D/owl_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/owl.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "fox": {
+  "title": "Fox",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fox/3D/fox_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/fox.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bear": {
+  "title": "Bear",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bear/3D/bear_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bear.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "penguin": {
+  "title": "Penguin",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Penguin/3D/penguin_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/penguin.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "octopus": {
+  "title": "Octopus",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Octopus/3D/octopus_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/octopus.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "turtle": {
+  "title": "Turtle",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Turtle/3D/turtle_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/turtle.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "dragon": {
+  "title": "Dragon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dragon/3D/dragon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/dragon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "sauropod": {
+  "title": "Sauropod",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sauropod/3D/sauropod_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/sauropod.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "butterfly": {
+  "title": "Butterfly",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Butterfly/3D/butterfly_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/butterfly.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "rabbit": {
+  "title": "Rabbit face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rabbit%20face/3D/rabbit_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/rabbit.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "hedgehog": {
+  "title": "Hedgehog",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hedgehog/3D/hedgehog_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/hedgehog.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bee": {
+  "title": "Honeybee",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Honeybee/3D/honeybee_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bee.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "whale": {
+  "title": "Spouting whale",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spouting%20whale/3D/spouting_whale_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/whale.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "crab": {
+  "title": "Crab",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crab/3D/crab_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/crab.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "frog": {
+  "title": "Frog",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Frog/3D/frog_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/frog.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "koala": {
+  "title": "Koala",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Koala/3D/koala_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/koala.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "apple": {
+  "title": "Red apple",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Red%20apple/3D/red_apple_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/apple.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "ant": {
+  "title": "Ant",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ant/3D/ant_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/ant.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "airplane": {
+  "title": "Airplane",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Airplane/3D/airplane_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/airplane.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "avocado": {
+  "title": "Avocado",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Avocado/3D/avocado_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/avocado.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "balloon": {
+  "title": "Balloon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Balloon/3D/balloon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/balloon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "banana": {
+  "title": "Banana",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Banana/3D/banana_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/banana.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cat": {
+  "title": "Cat face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cat%20face/3D/cat_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cat.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "carrot": {
+  "title": "Carrot",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Carrot/3D/carrot_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/carrot.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "castle": {
+  "title": "Castle",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Castle/3D/castle_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/castle.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cake": {
+  "title": "Shortcake",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shortcake/3D/shortcake_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cake.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "duck": {
+  "title": "Duck",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Duck/3D/duck_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/duck.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "dolphin": {
+  "title": "Dolphin",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dolphin/3D/dolphin_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/dolphin.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "egg": {
+  "title": "Egg",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Egg/3D/egg_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/egg.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "elephant": {
+  "title": "Elephant",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Elephant/3D/elephant_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/elephant.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "envelope": {
+  "title": "Envelope",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Envelope/3D/envelope_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/envelope.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "fish": {
+  "title": "Fish",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fish/3D/fish_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/fish.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "flower": {
+  "title": "Cherry blossom",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cherry%20blossom/3D/cherry_blossom_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/flower.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "feather": {
+  "title": "Feather",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Feather/3D/feather_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/feather.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "giraffe": {
+  "title": "Giraffe",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Giraffe/3D/giraffe_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/giraffe.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "grapes": {
+  "title": "Grapes",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grapes/3D/grapes_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/grapes.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "gift": {
+  "title": "Wrapped gift",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Wrapped%20gift/3D/wrapped_gift_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/gift.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "hat": {
+  "title": "Top hat",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Top%20hat/3D/top_hat_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/hat.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "house": {
+  "title": "House",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/House/3D/house_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/house.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "horse": {
+  "title": "Horse face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Horse%20face/3D/horse_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/horse.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "honey": {
+  "title": "Honey pot",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Honey%20pot/3D/honey_pot_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/honey.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "icecream": {
+  "title": "Soft ice cream",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Soft%20ice%20cream/3D/soft_ice_cream_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/icecream.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "ice": {
+  "title": "Ice",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ice/3D/ice_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/ice.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "juice": {
+  "title": "Beverage box",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beverage%20box/3D/beverage_box_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/juice.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "jeans": {
+  "title": "Jeans",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Jeans/3D/jeans_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/jeans.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "kite": {
+  "title": "Kite",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Kite/3D/kite_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/kite.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "key": {
+  "title": "Old key",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Old%20key/3D/old_key_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/key.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "kangaroo": {
+  "title": "Kangaroo",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Kangaroo/3D/kangaroo_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/kangaroo.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "lion": {
+  "title": "Lion",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lion/3D/lion_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/lion.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "lemon": {
+  "title": "Lemon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lemon/3D/lemon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/lemon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "leaf": {
+  "title": "Leaf fluttering in wind",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Leaf%20fluttering%20in%20wind/3D/leaf_fluttering_in_wind_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/leaf.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "lantern": {
+  "title": "Red paper lantern",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Red%20paper%20lantern/3D/red_paper_lantern_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/lantern.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "ladybird": {
+  "title": "Lady beetle",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lady%20beetle/3D/lady_beetle_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/ladybird.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "moon": {
+  "title": "Crescent moon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crescent%20moon/3D/crescent_moon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/moon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "mushroom": {
+  "title": "Mushroom",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mushroom/3D/mushroom_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/mushroom.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "monkey": {
+  "title": "Monkey face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Monkey%20face/3D/monkey_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/monkey.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "mouse": {
+  "title": "Mouse face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mouse%20face/3D/mouse_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/mouse.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "nest": {
+  "title": "Nest with eggs",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Nest%20with%20eggs/3D/nest_with_eggs_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/nest.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "nut": {
+  "title": "Chestnut",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chestnut/3D/chestnut_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/nut.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "orange": {
+  "title": "Tangerine",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tangerine/3D/tangerine_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/orange.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "otter": {
+  "title": "Otter",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Otter/3D/otter_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/otter.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "pig": {
+  "title": "Pig face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pig%20face/3D/pig_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/pig.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "pear": {
+  "title": "Pear",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pear/3D/pear_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/pear.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "panda": {
+  "title": "Panda",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Panda/3D/panda_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/panda.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "queen": {
+  "title": "Princess",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Princess/Default/3D/princess_3d_default.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/queen.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "rainbow": {
+  "title": "Rainbow",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rainbow/3D/rainbow_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/rainbow.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "rocket": {
+  "title": "Rocket",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rocket/3D/rocket_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/rocket.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "rose": {
+  "title": "Rose",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rose/3D/rose_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/rose.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "star": {
+  "title": "Star",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Star/3D/star_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/star.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "sun": {
+  "title": "Sun",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun/3D/sun_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/sun.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "snail": {
+  "title": "Snail",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snail/3D/snail_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/snail.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "shell": {
+  "title": "Spiral shell",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spiral%20shell/3D/spiral_shell_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/shell.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "strawberry": {
+  "title": "Strawberry",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Strawberry/3D/strawberry_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/strawberry.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "tree": {
+  "title": "Deciduous tree",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Deciduous%20tree/3D/deciduous_tree_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/tree.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "tiger": {
+  "title": "Tiger face",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tiger%20face/3D/tiger_face_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/tiger.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "train": {
+  "title": "Locomotive",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Locomotive/3D/locomotive_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/train.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "umbrella": {
+  "title": "Umbrella",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Umbrella/3D/umbrella_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/umbrella.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "violin": {
+  "title": "Violin",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Violin/3D/violin_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/violin.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "volcano": {
+  "title": "Volcano",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Volcano/3D/volcano_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/volcano.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "van": {
+  "title": "Minibus",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Minibus/3D/minibus_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/van.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "watermelon": {
+  "title": "Watermelon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Watermelon/3D/watermelon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/watermelon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "worm": {
+  "title": "Worm",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Worm/3D/worm_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/worm.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "box": {
+  "title": "Package",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Package/3D/package_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/box.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "yoyo": {
+  "title": "Yo-yo",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Yo-yo/3D/yo-yo_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/yoyo.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "yarn": {
+  "title": "Yarn",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Yarn/3D/yarn_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/yarn.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "zebra": {
+  "title": "Zebra",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Zebra/3D/zebra_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/zebra.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "map": {
+  "title": "World map",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/World%20map/3D/world_map_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/map.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "crystal": {
+  "title": "Gem stone",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Gem%20stone/3D/gem_stone_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/crystal.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "ribbon": {
+  "title": "Ribbon",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ribbon/3D/ribbon_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/ribbon.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bell": {
+  "title": "Bell",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bell/3D/bell_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bell.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "wand": {
+  "title": "Magic wand",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Magic%20wand/3D/magic_wand_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/wand.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "crown": {
+  "title": "Crown",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crown/3D/crown_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/crown.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "compass": {
+  "title": "Compass",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Compass/3D/compass_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/compass.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "basket": {
+  "title": "Basket",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Basket/3D/basket_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/basket.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bucket": {
+  "title": "Bucket",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bucket/3D/bucket_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bucket.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "sparkles": {
+  "title": "Sparkles",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sparkles/3D/sparkles_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/sparkles.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "glowstar": {
+  "title": "Glowing star",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Glowing%20star/3D/glowing_star_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/glowstar.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "shootingstar": {
+  "title": "Shooting star",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shooting%20star/3D/shooting_star_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/shootingstar.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "clover": {
+  "title": "Four leaf clover",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Four%20leaf%20clover/3D/four_leaf_clover_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/clover.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "snowflake": {
+  "title": "Snowflake",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snowflake/3D/snowflake_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/snowflake.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "snowman": {
+  "title": "Snowman without snow",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snowman%20without%20snow/3D/snowman_without_snow_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/snowman.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "blueberries": {
+  "title": "Blueberries",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blueberries/3D/blueberries_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/blueberries.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cherries": {
+  "title": "Cherries",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cherries/3D/cherries_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cherries.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "music": {
+  "title": "Musical note",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Musical%20note/3D/musical_note_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/music.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "drum": {
+  "title": "Drum",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Drum/3D/drum_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/drum.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cookie": {
+  "title": "Cookie",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cookie/3D/cookie_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cookie.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cupcake": {
+  "title": "Cupcake",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cupcake/3D/cupcake_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cupcake.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bubbles": {
+  "title": "Bubbles",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bubbles/3D/bubbles_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bubbles.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "droplet": {
+  "title": "Droplet",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Droplet/3D/droplet_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/droplet.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "cloud": {
+  "title": "Cloud",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud/3D/cloud_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/cloud.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "tulip": {
+  "title": "Tulip",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tulip/3D/tulip_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/tulip.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "sunflower": {
+  "title": "Sunflower",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunflower/3D/sunflower_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/sunflower.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "palm": {
+  "title": "Palm tree",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Palm%20tree/3D/palm_tree_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/palm.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "evergreen": {
+  "title": "Evergreen tree",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Evergreen%20tree/3D/evergreen_tree_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/evergreen.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "herb": {
+  "title": "Herb",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Herb/3D/herb_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/herb.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "rock": {
+  "title": "Rock",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rock/3D/rock_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/rock.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "coral": {
+  "title": "Coral",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Coral/3D/coral_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/coral.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "tropicalfish": {
+  "title": "Tropical fish",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tropical%20fish/3D/tropical_fish_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/tropicalfish.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "teddy": {
+  "title": "Teddy bear",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Teddy%20bear/3D/teddy_bear_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/teddy.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "pawprints": {
+  "title": "Paw prints",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Paw%20prints/3D/paw_prints_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/pawprints.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "door": {
+  "title": "Door",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Door/3D/door_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/door.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "fountain": {
+  "title": "Fountain",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fountain/3D/fountain_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/fountain.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "tent": {
+  "title": "Tent",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tent/3D/tent_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/tent.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "hut": {
+  "title": "Hut",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hut/3D/hut_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/hut.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bridge": {
+  "title": "Bridge at night",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bridge%20at%20night/3D/bridge_at_night_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bridge.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "telescope": {
+  "title": "Telescope",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Telescope/3D/telescope_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/telescope.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "partypopper": {
+  "title": "Party popper",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Party%20popper/3D/party_popper_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/partypopper.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "confetti": {
+  "title": "Confetti ball",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Confetti%20ball/3D/confetti_ball_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/confetti.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "candle": {
+  "title": "Candle",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Candle/3D/candle_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/candle.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "sled": {
+  "title": "Sled",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sled/3D/sled_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/sled.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "boat": {
+  "title": "Sailboat",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sailboat/3D/sailboat_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/boat.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "bone": {
+  "title": "Bone",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bone/3D/bone_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/bone.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "pinecone": {
+  "title": "Fallen leaf",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fallen%20leaf/3D/fallen_leaf_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/pinecone.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "blossom": {
+  "title": "Blossom",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blossom/3D/blossom_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/blossom.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "hibiscus": {
+  "title": "Hibiscus",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hibiscus/3D/hibiscus_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/hibiscus.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "seedling": {
+  "title": "Seedling",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Seedling/3D/seedling_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/seedling.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "heart": {
+  "title": "Sparkling heart",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sparkling%20heart/3D/sparkling_heart_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/heart.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "pearl": {
+  "title": "Oyster",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Oyster/3D/oyster_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/pearl.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "chick": {
+  "title": "Hatching chick",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hatching%20chick/3D/hatching_chick_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/chick.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "firework": {
+  "title": "Sparkler",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sparkler/3D/sparkler_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/firework.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ },
+ "book": {
+  "title": "Closed book",
+  "creator": "Microsoft Corporation (Fluent Emoji)",
+  "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Closed%20book/3D/closed_book_3d.png",
+  "licence": "MIT",
+  "attribution": "Fluent Emoji \u00a9 Microsoft Corporation, MIT licence",
+  "checked": "2026-11-24",
+  "file": "assets/img/book.webp",
+  "modifications": "Converted from 256px PNG to 192px WebP"
+ }
+}
