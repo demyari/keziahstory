@@ -13,7 +13,7 @@ as tests. Everything works offline. There are no adverts, accounts, purchases or
 and publishes it on the repository's **Releases** page as the pre-release
 **"The Magical Storybook (latest build)"** (tag `storybook-latest`). On the phone, open
 that release, download `MagicalStorybook.apk` and open it to install (Android will ask to allow
-installs from the browser). It installs alongside the older "Story Stars" app.
+installs from the browser). It replaces nothing: the older "Story Stars" app (removed from this repo) can stay installed.
 Narration uses the phone's own voice: for offline narration, make sure *Speech Services
 by Google* has an English voice downloaded (Settings › Accessibility › Text-to-speech).
 If an English (New Zealand) voice is installed, it is chosen automatically.

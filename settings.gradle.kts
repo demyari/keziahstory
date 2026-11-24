@@ -12,6 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "StoryStars"
-include(":app")
+rootProject.name = "MagicalStorybook"
 include(":storybook-android")
