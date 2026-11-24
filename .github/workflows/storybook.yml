@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# One build at a time, so two pushes never race to replace the same release.
+concurrency:
+  group: storybook-release
+  cancel-in-progress: false
+
 jobs:
   test:
     runs-on: ubuntu-latest
