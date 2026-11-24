@@ -1,0 +1,1 @@
+{"name":"poppys-picnic","private":true,"version":"0.1.0","scripts":{"start":"node tests/serve.cjs 8080","test":"node --test tests/story.test.cjs"},"devDependencies":{"playwright":"1.63.0"}}

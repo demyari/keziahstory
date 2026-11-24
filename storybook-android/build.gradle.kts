@@ -3,14 +3,14 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-// The book itself is the web app in ../storybook. It is copied into the APK's
+// The game itself is the web game in ../game. It is copied into the APK's
 // assets at build time, so the APK works fully offline.
-val copyStorybook by tasks.registering(Sync::class) {
-    from(rootProject.file("storybook")) {
-        include("index.html", "manifest.webmanifest", "asset-list.json", "css/**", "js/**", "assets/**")
-        exclude("assets/**/manifest.json", "**/*.txt")
+val copyGame by tasks.registering(Sync::class) {
+    from(rootProject.file("game")) {
+        include("index.html", "js/**", "assets/**", "vendor/**", "script/**")
+        exclude("**/*.txt", "**/*.md")
     }
-    into(layout.buildDirectory.dir("webassets/storybook"))
+    into(layout.buildDirectory.dir("webassets/game"))
 }
 
 android {
@@ -21,11 +21,11 @@ android {
         applicationId = "nz.storystars.storybook"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0-sample"
     }
 
-    // Same sideloading key as the other app, so updates install over the last build.
+    // A fixed sideloading key, so each build installs over the last one.
     signingConfigs {
         create("sideload") {
             storeFile = rootProject.file("sideload.keystore")
@@ -50,8 +50,7 @@ android {
     sourceSets["main"].assets.srcDir(layout.buildDirectory.dir("webassets"))
 
     androidResources {
-        // keep Ogg clips and WebP pictures uncompressed-friendly
-        noCompress += listOf("ogg", "webp", "woff2")
+        noCompress += listOf("ogg", "png", "woff2")
     }
 
     compileOptions {
@@ -69,4 +68,4 @@ kotlin {
     jvmToolchain(17)
 }
 
-tasks.named("preBuild") { dependsOn(copyStorybook) }
+tasks.named("preBuild") { dependsOn(copyGame) }

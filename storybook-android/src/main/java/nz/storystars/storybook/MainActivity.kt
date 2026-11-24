@@ -5,46 +5,38 @@ import android.app.Activity
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowInsets
 import android.view.WindowInsetsController
 import android.view.WindowManager
-import android.webkit.JavascriptInterface
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.FrameLayout
 import android.window.OnBackInvokedDispatcher
-import org.json.JSONObject
 import java.io.IOException
 
 /**
- * A full-screen book. The pages are the bundled web app in assets/storybook,
- * served from a private https address inside the app so nothing ever goes to
- * the internet. Narration uses the phone's own text-to-speech voices.
+ * A full-screen game. The game is the bundled web game in assets/game,
+ * served from a private https address inside the app, so nothing is ever
+ * loaded from the internet. All voices are recordings inside the app.
  */
 class MainActivity : Activity() {
 
     private lateinit var web: WebView
-    private lateinit var voice: BookVoice
-    private val main = Handler(Looper.getMainLooper())
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
-        voice = BookVoice(this) { type, id -> emit(type, id) }
-
         web = WebView(this)
-        web.setBackgroundColor(Color.parseColor("#241F48"))
+        web.setBackgroundColor(Color.parseColor("#BFE9FB"))
         web.settings.apply {
             javaScriptEnabled = true
-            domStorageEnabled = true // saved progress (localStorage)
+            domStorageEnabled = true
             mediaPlaybackRequiresUserGesture = false
             allowFileAccess = false
             allowContentAccess = false
@@ -63,7 +55,7 @@ class MainActivity : Activity() {
                 var path = url.path ?: "/"
                 if (path.endsWith("/")) path += "index.html"
                 return try {
-                    val stream = assets.open("storybook" + path)
+                    val stream = assets.open("game" + path)
                     WebResourceResponse(mimeFor(path), if (isText(path)) "utf-8" else null, stream)
                 } catch (e: IOException) {
                     WebResourceResponse("text/plain", "utf-8", 404, "Not found", emptyMap(), null)
@@ -73,21 +65,12 @@ class MainActivity : Activity() {
         web.isLongClickable = false
         web.setOnLongClickListener { true }
         web.isHapticFeedbackEnabled = false
-        web.addJavascriptInterface(VoiceBridge(), "StoryVoice")
 
         val frame = FrameLayout(this)
-        frame.setBackgroundColor(Color.parseColor("#241F48"))
+        frame.setBackgroundColor(Color.parseColor("#BFE9FB"))
         frame.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
         setContentView(frame)
 
-        if (Build.VERSION.SDK_INT >= 30) {
-            window.setDecorFitsSystemWindows(false)
-            frame.setOnApplyWindowInsetsListener { v, insets ->
-                val b = insets.getInsets(WindowInsets.Type.systemBars() or WindowInsets.Type.displayCutout())
-                v.setPadding(b.left, b.top, b.right, b.bottom)
-                insets
-            }
-        }
         if (Build.VERSION.SDK_INT >= 33) {
             onBackInvokedDispatcher.registerOnBackInvokedCallback(OnBackInvokedDispatcher.PRIORITY_DEFAULT) { goBack() }
         }
@@ -123,7 +106,6 @@ class MainActivity : Activity() {
     }
 
     override fun onPause() {
-        voice.stop()
         web.onPause()
         super.onPause()
     }
@@ -134,56 +116,22 @@ class MainActivity : Activity() {
     }
 
     override fun onDestroy() {
-        voice.shutdown()
         web.destroy()
         super.onDestroy()
-    }
-
-    /** Tells the page that an utterance finished ("done") or failed ("error"). */
-    private fun emit(type: String, id: String) {
-        main.post {
-            web.evaluateJavascript(
-                "window.storyVoiceEvent && window.storyVoiceEvent(${JSONObject.quote(type)}, ${JSONObject.quote(id)})", null
-            )
-        }
-    }
-
-    /** The only things the page may ask of the phone: speak, stop, list and pick voices. */
-    inner class VoiceBridge {
-        @JavascriptInterface
-        fun speak(text: String, id: String, pitch: Double, rate: Double, volume: Double) {
-            main.post { voice.speak(text.take(600), id, pitch.toFloat(), rate.toFloat(), volume.toFloat()) }
-        }
-
-        @JavascriptInterface
-        fun stop() {
-            main.post { voice.stop() }
-        }
-
-        @JavascriptInterface
-        fun voices(): String = voice.voicesJson()
-
-        @JavascriptInterface
-        fun setVoice(name: String) {
-            main.post { voice.useVoice(name.take(120)) }
-        }
     }
 
     companion object {
         const val HOST = "appassets.androidplatform.net"
 
-        fun isText(path: String) = path.endsWith(".html") || path.endsWith(".js") || path.endsWith(".css") ||
-            path.endsWith(".json") || path.endsWith(".webmanifest")
+        fun isText(path: String) = path.endsWith(".html") || path.endsWith(".js") || path.endsWith(".css") || path.endsWith(".json")
 
         fun mimeFor(path: String): String = when (path.substringAfterLast('.', "").lowercase()) {
             "html" -> "text/html"
             "js", "mjs" -> "text/javascript"
             "css" -> "text/css"
             "json" -> "application/json"
-            "webmanifest" -> "application/manifest+json"
-            "webp" -> "image/webp"
             "png" -> "image/png"
-            "svg" -> "image/svg+xml"
+            "webp" -> "image/webp"
             "woff2" -> "font/woff2"
             "ogg" -> "audio/ogg"
             else -> "application/octet-stream"

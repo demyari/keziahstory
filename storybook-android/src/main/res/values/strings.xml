@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Magical Storybook</string>
-    <color name="night">#241F48</color>
+    <string name="app_name">Poppy\'s Picnic</string>
+    <color name="night">#BFE9FB</color>
     <style name="BookTheme" parent="android:Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/night</item>
         <item name="android:statusBarColor">@color/night</item>

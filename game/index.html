@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#bfe9fb">
+  <title>Poppy's Picnic</title>
+  <link rel="icon" href="assets/icon-192.png">
+  <style>
+    @font-face { font-family: 'Fredoka'; src: url('assets/fonts/fredoka.woff2') format('woff2'); font-weight: 300 700; }
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #bfe9fb; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+    #game { position: fixed; inset: 0; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="vendor/phaser.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,9 +1,9 @@
-name: Magical Storybook
+name: Poppy's Picnic
 
 on:
   push:
     paths:
-      - 'storybook/**'
+      - 'game/**'
       - 'storybook-android/**'
       - '.github/workflows/storybook.yml'
       - 'settings.gradle.kts'
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: storybook
+        working-directory: game
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,10 +33,8 @@ jobs:
         run: |
           npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
-      - name: Story engine, memory, learning and save tests (includes 130,000-story variation proof)
+      - name: Play every route of the story by touch (real Chromium)
         run: npm test
-      - name: Browser tests (interactions, full story, offline, layouts)
-        run: npm run test:browser
 
   apk:
     runs-on: ubuntu-latest
@@ -51,19 +49,18 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew --no-daemon :storybook-android:assembleRelease
-          cp storybook-android/build/outputs/apk/release/storybook-android-release.apk MagicalStorybook.apk
+          cp storybook-android/build/outputs/apk/release/storybook-android-release.apk PoppysPicnic.apk
       - uses: actions/upload-artifact@v4
         with:
-          name: MagicalStorybook
-          path: MagicalStorybook.apk
-      # A separate pre-release, so the Story Stars "latest" release is left alone.
+          name: PoppysPicnic
+          path: PoppysPicnic.apk
       - name: Publish the APK for the phone
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release delete storybook-latest --yes --cleanup-tag || true
-          gh release create storybook-latest MagicalStorybook.apk \
+          gh release create storybook-latest PoppysPicnic.apk \
             --prerelease \
             --target "${GITHUB_SHA}" \
-            --title "The Magical Storybook (latest build)" \
-            --notes "On your Android phone: download MagicalStorybook.apk and open it to install. Works offline. Built from ${GITHUB_REF_NAME} @ ${GITHUB_SHA::7}."
+            --title "Poppy's Picnic: sample story (latest build)" \
+            --notes "On your Android phone: download PoppysPicnic.apk and open it to install. Works offline. Built from ${GITHUB_REF_NAME} @ ${GITHUB_SHA::7}."
